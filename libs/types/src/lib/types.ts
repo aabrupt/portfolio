@@ -2,9 +2,9 @@ export interface Todo {
     // User input
     author: string;
     content: string;
-    doDate: number;
+    doDate: string;
     tags: string[];
     // Autogenerate
-    publishDate: number;
+    publishDate: string;
     id: string;
 }

@@ -2,7 +2,7 @@ export async function getServerSideProps(context) {
     return {
         props: {},
         redirect: {
-            permanent: false,
+            permanent: true,
             destination: '/todos',
         },
     };
